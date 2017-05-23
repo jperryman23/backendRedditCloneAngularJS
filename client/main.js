@@ -36,7 +36,7 @@
                     {
                         title: "Elephants",
                         body: "they are so cute",
-                        author: "Joran Fred",
+                        author: "Jordan Fred",
                         image: "http://blog.humanesociety.org/wp-content/uploads/2015/07/ELEPHANT-ivory-rule-announced-1220x813.jpg",
                         createdOn: 1495072634391,
                         votes: 1,

@@ -1,15 +1,30 @@
 {
   "name": "newAngularReddit",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server/app.js",
   "license": "MIT",
   "scripts": {
-    "start": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
   "dependencies": {
-    "angular": "1.6.0"
-  }
+    "angular": "1.6.0",
+    "express": "^4.15.3",
+    "knex": "^0.13.0",
+    "pg": "^6.2.2"
+  },
+  "description": "Reddit Clone with AngularJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jperryman23/backendRedditCloneAngularJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jperryman23/backendRedditCloneAngularJS/issues"
+  },
+  "homepage": "https://github.com/jperryman23/backendRedditCloneAngularJS#readme"
 }
