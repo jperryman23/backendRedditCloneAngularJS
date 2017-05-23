@@ -127,4 +127,9 @@
             },
             templateUrl: "reddit.html"
         })
+        .component('redditFooter', {
+            // controller:
+            templateUrl: "/templates/footer.html"
+        })
+
 })()
