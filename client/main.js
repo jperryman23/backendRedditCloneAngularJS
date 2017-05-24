@@ -2,7 +2,7 @@
 
     angular.module("app", ['angularMoment'])
         .component("redditBody", {
-            controller: "/JSFiles/info",
+            controller: "redditBodyController",
             templateUrl: "/templates/reddit.html"
         })
         .component('redditNavbar', {
